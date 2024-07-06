@@ -1,0 +1,188 @@
+
+open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav style */
+
+
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+   
+
+}
+
+span{
+    color:rgb(253, 110, 10) ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-contain{
+    max-width: 580px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: -50px;
+    
+}
+
+
+.banner-profile-pic{
+    width: 580px;
+}
+
+/* header style end */
+
+
+/* main about me style start here */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.about-secondary-bg{
+    /* White Color */
+background: rgb(236, 230, 230);
+border-radius: 10px;
+padding: 130px 150px ;
+text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item-description{
+    font-weight: 700;
+}
+/* main about me style end here */
+
+/* section 2 start here */
+
+
+.main-card{
+    display: flex;
+    justify-content:space-around;
+    gap: 15px;
+    margin-top: 20px;
+}
+.what-i-do .head{
+    text-align: center;
+    margin-top: 6em;
+}
+
+.card{
+    width: 260px;
+    height: 370;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px  33px 104px 30px;
+}
+.card p{
+    font-size: 20px;
+    
+}
+
+
+/* section 2 end here */
+
+/* section 3 start here */
+
+.summary-of-my-resume h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+.main-sammary{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+.my-education h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.my-education h4{
+    font-size: 25px; 
+    font-weight: 700;
+    line-height: 34px;
+}
+.my-education h5{
+    font-size: 20px; 
+    font-weight: 600;
+    line-height: 34px;
+    color: dark;
+}
+/* section 3 end here */
